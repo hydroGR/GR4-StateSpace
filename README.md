@@ -2,7 +2,7 @@
 
 This repository presents the code to use to run the state-space version of GR4 (version 1.0). 
 
-GR4J is a lumped rainfall-runoff model developed in the Catchment Hydrology Group of Irstea in Antony (see Perrin et al., 2003 and our website https://webgr.irstea.fr/journalier-gr4j-2/). An hourly version, GR4H, also exists (see our open source airGR R package for both models: https://cran.r-project.org/package=airGR). 
+GR4J is a lumped rainfall-runoff model developed in the [Catchment Hydrology Group of INRAE in Antony](https://webgr.inrae.fr/en/home/) (see Perrin et al., 2003 and the [GR4J pages on our website](https://webgr.inrae.fr/en/models/daily-hydrological-model-gr4j/). An hourly version, GR4H, also exists (see our open source [airGR R package](https://cran.r-project.org/package=airGR) for both models). 
 
 The state-space version of GR4 is a result of the PhD thesis of Léonard Santos (Santos et al., 2018). Usually, the differential equations of the lumped bucket rainfall-runoff models (e.g. HBV, TOPMODEL...) are not explicitly formulated and are solved sequentially by splitting the equations into terms that can be solved analytically with a technique called "operator splitting" (as a result, only the solutions of the split equations are used to present the different models). In the state-space GR4 model, the differential equations are explicit and are solved continuously and the operator splitting is removed. The state-space GR4 model can be applied at the daily and hourly time steps. 
 
@@ -18,7 +18,7 @@ Santos, L., Thirel, G., and Perrin, C., 2018. Continuous state-space representat
 
 Run the state-space version of GR4 (version 1.0)
 
-For more information, see paper in Geoscientific Model Development
+For more information, see paper in Geoscientific Model Development:
 
 Santos, L., Thirel, G., and Perrin, C.: Continuous state-space representation of a bucket-type rainfall-runoff model: a case study with the GR4 model using state-space GR4 (version 1.0), Geosci. Model Dev., 11, 1591-1605, https://doi.org/10.5194/gmd-11-1591-2018, 2018. 
 
